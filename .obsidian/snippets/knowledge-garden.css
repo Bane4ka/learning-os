@@ -1,0 +1,79 @@
+/* Knowledge Garden — единый стиль для теории / проектов / meta заметок */
+
+.markdown-preview-view, .markdown-source-view {
+  --kg-theory: #4C8BF5;
+  --kg-project: #3DDC97;
+  --kg-meta: #B980F0;
+  --kg-misc: #F2A65A;
+}
+
+/* Заголовки первого уровня — крупнее, с нижней линией акцентного цвета темы */
+.markdown-preview-view h1,
+.markdown-source-view .cm-header-1 {
+  border-bottom: 2px solid var(--kg-theory);
+  padding-bottom: 0.25em;
+  margin-bottom: 0.6em;
+}
+
+/* Заголовки второго уровня — компактный акцент слева, как маркер секции */
+.markdown-preview-view h2 {
+  border-left: 3px solid var(--kg-theory);
+  padding-left: 0.6em;
+  margin-top: 1.6em;
+}
+
+/* Горизонтальные разделители — тоньше и светлее, меньше визуального шума */
+.markdown-preview-view hr {
+  border: none;
+  border-top: 1px solid var(--background-modifier-border);
+  margin: 1.8em 0;
+}
+
+/* Блоки кода — чуть больше отступов и скруглений, приятнее читать */
+.markdown-preview-view pre {
+  border-radius: 8px;
+  padding: 0.9em 1em;
+  border: 1px solid var(--background-modifier-border);
+}
+
+/* Инлайн-код — лёгкий акцент */
+.markdown-preview-view code {
+  border-radius: 4px;
+}
+
+/* Свойства (frontmatter) — визуально отделены, компактнее */
+.metadata-container {
+  border-radius: 8px;
+  border: 1px solid var(--background-modifier-border);
+  padding: 0.4em 0.8em;
+  margin-bottom: 1em;
+}
+
+/* Внутренние ссылки [[...]] — заметнее, но не кричаще */
+.markdown-preview-view a.internal-link,
+.markdown-source-view span.cm-hmd-internal-link {
+  font-weight: 500;
+  text-decoration: none;
+  border-bottom: 1px dotted currentColor;
+}
+
+.markdown-preview-view a.internal-link:hover {
+  border-bottom-style: solid;
+}
+
+/* Таблицы — читаемее, с лёгкой разметкой строк */
+.markdown-preview-view table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.markdown-preview-view th {
+  border-bottom: 2px solid var(--background-modifier-border);
+}
+.markdown-preview-view td {
+  border-bottom: 1px solid var(--background-modifier-border-hover);
+}
+
+/* Немного больше "воздуха" между абзацами для читаемости в длинных теоретических заметках */
+.markdown-preview-view p {
+  line-height: 1.65;
+}

@@ -1,0 +1,10 @@
+# Личные финансы: семья, доходы, активы. Не публиковать.
+personal/finance/
+
+# Системные и локальные файлы Obsidian
+.DS_Store
+.obsidian/workspace*.json
+.obsidian/cache
+
+# Сохранённые ответы LLM (см. AGENTS.md)
+llm/outputs/

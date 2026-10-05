@@ -1,0 +1,86 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"meta/\"",
+      "color": {
+        "a": 1,
+        "rgb": 12157168
+      }
+    },
+    {
+      "query": "path:\"wiki/theory/\"",
+      "color": {
+        "a": 1,
+        "rgb": 5016565
+      }
+    },
+    {
+      "query": "path:\"projects/\"",
+      "color": {
+        "a": 1,
+        "rgb": 4054167
+      }
+    },
+    {
+      "query": "path:\"templates/\"",
+      "color": {
+        "a": 1,
+        "rgb": 10134961
+      }
+    },
+    {
+      "query": "path:\"personal/misc/\"",
+      "color": {
+        "a": 1,
+        "rgb": 6833959
+      }
+    },
+    {
+      "query": "tag:#finance",
+      "color": {
+        "a": 1,
+        "rgb": 13708846
+      }
+    },
+    {
+      "query": "path:\"learning/\"",
+      "color": {
+        "a": 1,
+        "rgb": 16739179
+      }
+    },
+    {
+      "query": "path:\"wiki/sources/\"",
+      "color": {
+        "a": 1,
+        "rgb": 3065014
+      }
+    },
+    {
+      "query": "tag:#psychology  ",
+      "color": {
+        "a": 1,
+        "rgb": 16739338
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": -0.8,
+  "nodeSizeMultiplier": 1.512578125,
+  "lineSizeMultiplier": 1.94451822916667,
+  "collapse-forces": false,
+  "centerStrength": 0.373090277777778,
+  "repelStrength": 13.40625,
+  "linkStrength": 0.328689236111111,
+  "linkDistance": 30,
+  "scale": 0.695029373695523,
+  "close": true
+}
