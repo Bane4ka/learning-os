@@ -144,7 +144,7 @@ Track "Algorithms & CS fundamentals" (введён 01.08, до этого пер
 
 ## 🧬 Режим работы: Learning OS (с 02.10.2026)
 
-Каждая тема этого плана проходит цикл: источник в `raw/` → Ingest → твоя заметка в `learning/` → Tutor → Examiner → Compile → проект → Reviewer. Правила и режимы: [[AGENTS]]. Первый цикл — на теме args/kwargs (закрытие пробела выше).
+Каждая тема этого плана проходит цикл: источник в `raw/` → Ingest → твоя заметка в `learning/` → Tutor → Examiner → Compile → проект → Reviewer. Правила и режимы: [[AGENTS]]. Первый цикл — на теме args/kwargs (закрытие пробела выше). Основной курс на этапе основ Python — Хендбук Яндекса, прогресс: [[Handbook Progress]].
 
 ---
 

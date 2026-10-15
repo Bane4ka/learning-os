@@ -1,6 +1,7 @@
 {
   "enabledCssSnippets": [
-    "knowledge-garden"
+    "knowledge-garden",
+    "folder-colors"
   ],
   "translucency": true
 }

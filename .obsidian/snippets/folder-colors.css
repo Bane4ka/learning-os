@@ -1,0 +1,63 @@
+/* Folder Colors — цветные папки в файловом списке Obsidian.
+   Цвета совпадают с группами графа (см. meta/Vault System.md).
+   Чтобы сменить цвет: поменяй значения R,G,B в --fc нужной папки. */
+
+/* Общий стиль цветной папки: плашка + цветная полоса слева */
+.nav-folder-title[data-path="raw"],
+.nav-folder-title[data-path="wiki"],
+.nav-folder-title[data-path="wiki/theory"],
+.nav-folder-title[data-path="wiki/sources"],
+.nav-folder-title[data-path="learning"],
+.nav-folder-title[data-path="projects"],
+.nav-folder-title[data-path="templates"],
+.nav-folder-title[data-path="meta"],
+.nav-folder-title[data-path="meta/_Archive"],
+.nav-folder-title[data-path="llm"],
+.nav-folder-title[data-path="log"],
+.nav-folder-title[data-path="personal"],
+.nav-folder-title[data-path="personal/finance"],
+.nav-folder-title[data-path="personal/misc"] {
+  background-color: rgba(var(--fc), 0.22);
+  border-left: 3px solid rgb(var(--fc));
+  border-radius: 6px;
+  margin-bottom: 2px;
+}
+
+.nav-folder-title[data-path="raw"] .nav-folder-title-content,
+.nav-folder-title[data-path="wiki"] .nav-folder-title-content,
+.nav-folder-title[data-path="wiki/theory"] .nav-folder-title-content,
+.nav-folder-title[data-path="wiki/sources"] .nav-folder-title-content,
+.nav-folder-title[data-path="learning"] .nav-folder-title-content,
+.nav-folder-title[data-path="projects"] .nav-folder-title-content,
+.nav-folder-title[data-path="templates"] .nav-folder-title-content,
+.nav-folder-title[data-path="meta"] .nav-folder-title-content,
+.nav-folder-title[data-path="meta/_Archive"] .nav-folder-title-content,
+.nav-folder-title[data-path="llm"] .nav-folder-title-content,
+.nav-folder-title[data-path="log"] .nav-folder-title-content,
+.nav-folder-title[data-path="personal"] .nav-folder-title-content,
+.nav-folder-title[data-path="personal/finance"] .nav-folder-title-content,
+.nav-folder-title[data-path="personal/misc"] .nav-folder-title-content {
+  color: rgb(var(--fc));
+  font-weight: 600;
+}
+
+/* При наведении плашка чуть ярче */
+.nav-folder-title[data-path]:hover {
+  filter: brightness(1.15);
+}
+
+/* Цвета (R, G, B) */
+.nav-folder-title[data-path="raw"]             { --fc: 242, 153, 74; }   /* оранжевый */
+.nav-folder-title[data-path="wiki"]            { --fc: 76, 139, 245; }   /* синий */
+.nav-folder-title[data-path="wiki/theory"]     { --fc: 76, 139, 245; }   /* синий */
+.nav-folder-title[data-path="wiki/sources"]    { --fc: 46, 196, 182; }   /* бирюзовый */
+.nav-folder-title[data-path="learning"]        { --fc: 255, 107, 107; }  /* коралловый */
+.nav-folder-title[data-path="projects"]        { --fc: 61, 220, 151; }   /* зелёный */
+.nav-folder-title[data-path="templates"]       { --fc: 154, 165, 177; }  /* серый */
+.nav-folder-title[data-path="meta"]            { --fc: 185, 128, 240; }  /* фиолетовый */
+.nav-folder-title[data-path="meta/_Archive"]   { --fc: 185, 128, 240; }
+.nav-folder-title[data-path="llm"]             { --fc: 124, 111, 224; }  /* индиго */
+.nav-folder-title[data-path="log"]             { --fc: 170, 170, 170; }  /* светло-серый */
+.nav-folder-title[data-path="personal"]        { --fc: 242, 166, 90; }   /* янтарный */
+.nav-folder-title[data-path="personal/finance"] { --fc: 234, 200, 60; } /* жёлтый */
+.nav-folder-title[data-path="personal/misc"]   { --fc: 242, 166, 90; }
